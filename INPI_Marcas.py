@@ -93,5 +93,5 @@ try:
 
 finally:
     print("Fechando o navegador após as ações...")
-    time.sleep(60)  # Adiciona mais tempo para observar a saída
+    time.sleep(10)  # Adiciona mais tempo para observar a saída
     driver.quit()

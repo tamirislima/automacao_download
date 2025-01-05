@@ -13,12 +13,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
 
 # Caminho para o Chromedriver
-chromedriver_path = 'C:/Users/0167814/OneDrive - Thomson Reuters Incorporated/Documents/selenium/chromedriver.exe'  # Atualize este caminho
+chromedriver_path = 'C:/Users/0167814/OneDrive - Thomson Reuters Incorporated/Documents/selenium/chromedriver.exe' 
 
 # Configuração do Selenium
 options = Options()
 options.add_experimental_option("prefs", {
-    "download.default_directory": "C:/Users/0167814/Downloads",  # Substitua pelo caminho correto no seu sistema
+    "download.default_directory": "C:/Users/0167814/Downloads",  
     "plugins.always_open_pdf_externally": True,
     "download.prompt_for_download": False
 })
